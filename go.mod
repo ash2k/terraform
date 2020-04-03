@@ -56,12 +56,12 @@ require (
 	github.com/hashicorp/go-checkpoint v0.5.0
 	github.com/hashicorp/go-cleanhttp v0.5.1
 	github.com/hashicorp/go-getter v1.4.2-0.20200106182914-9813cbd4eb02
-	github.com/hashicorp/go-hclog v0.0.0-20181001195459-61d530d6c27f
+	github.com/hashicorp/go-hclog v0.9.2
 	github.com/hashicorp/go-immutable-radix v0.0.0-20180129170900-7f3cd4390caa // indirect
 	github.com/hashicorp/go-msgpack v0.5.4 // indirect
 	github.com/hashicorp/go-multierror v1.0.0
 	github.com/hashicorp/go-plugin v1.0.1-0.20190610192547-a1bc61569a26
-	github.com/hashicorp/go-retryablehttp v0.5.2
+	github.com/hashicorp/go-retryablehttp v0.6.4
 	github.com/hashicorp/go-rootcerts v1.0.0
 	github.com/hashicorp/go-sockaddr v0.0.0-20180320115054-6d291a969b86 // indirect
 	github.com/hashicorp/go-tfe v0.3.27
@@ -119,6 +119,7 @@ require (
 	github.com/tmc/grpc-websocket-proxy v0.0.0-20171017195756-830351dc03c6 // indirect
 	github.com/ugorji/go v0.0.0-20180813092308-00b869d2f4a5 // indirect
 	github.com/vmihailenco/msgpack v4.0.1+incompatible // indirect
+	github.com/xanzy/go-gitlab v0.29.0 // indirect
 	github.com/xanzy/ssh-agent v0.2.1
 	github.com/xiang90/probing v0.0.0-20160813154853-07dd2e8dfe18 // indirect
 	github.com/xlab/treeprint v0.0.0-20161029104018-1d6e34225557
@@ -136,6 +137,10 @@ require (
 	google.golang.org/grpc v1.21.1
 	gopkg.in/ini.v1 v1.42.0 // indirect
 	gopkg.in/yaml.v2 v2.2.2
+)
+
+replace (
+    github.com/xanzy/go-gitlab => /Users/mikhail/src/go-gitlab
 )
 
 go 1.14
